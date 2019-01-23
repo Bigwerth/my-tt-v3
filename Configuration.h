@@ -129,7 +129,7 @@
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-#define CUSTOM_MACHINE_NAME "Micha's 3D BOX"
+#define CUSTOM_MACHINE_NAME "Micha's Print Box I"
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -440,14 +440,14 @@
   //#define DEFAULT_bedKd 1675.16
 
   // TEVO Tarantula Custom PID Settings - Heatbed
-  #define  DEFAULT_bedKp 828.69
-  #define  DEFAULT_bedKi 162.12
-  #define  DEFAULT_bedKd 1058.97
+  //#define  DEFAULT_bedKp 828.69
+  //#define  DEFAULT_bedKi 162.12
+  //#define  DEFAULT_bedKd 1058.97
 
   // Anycubic hodnoty
-  //#define  DEFAULT_bedKp 246.23
-  //#define  DEFAULT_bedKi 48.48
-  //#define  DEFAULT_bedKd 312.65
+  #define  DEFAULT_bedKp 246.23
+  #define  DEFAULT_bedKi 48.48
+  #define  DEFAULT_bedKd 312.65
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -1276,12 +1276,12 @@
 // @section temperature
 
 // Preheat Constants
-#define PREHEAT_1_TEMP_HOTEND 215
-#define PREHEAT_1_TEMP_BED     50
+#define PREHEAT_1_TEMP_HOTEND 180
+#define PREHEAT_1_TEMP_BED     70
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED    70
+#define PREHEAT_2_TEMP_BED    110
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
 /**
